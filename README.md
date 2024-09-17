@@ -8,7 +8,7 @@
 
 1-Build new page with keeping the layouts on our application
 
-2-Create new button called ‘Connect polygon network
+2-Create new button called Connect polygon network
 
 3-Build simple Django backend that interacts with Polygon network
 
