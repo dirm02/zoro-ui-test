@@ -9,7 +9,7 @@
 1-Build new page with keeping the layouts on our application\
 `code here`\
 2-Create new button called ‘Connect polygon network\
-` `from web3 import Web3
+` ``from web3 import Web3
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 
@@ -24,7 +24,7 @@ def connect_polygon(request):
         else:
             return JsonResponse({'status': 'false', 'network': 'Polygon Mainnet'}, status=500)
 
-    return JsonResponse({'error': 'Invalid request method'}, status=400)`` 
+    return JsonResponse({'error': 'Invalid request method'}, status=400)`` `
 3-Build simple Django backend that interacts with Polygon network\
 `code here`\
 4-Implement integration new button with Django backend\
