@@ -16,7 +16,6 @@
 `code here`\
 ** video   result **
 
--Media here \
 
 Zoro Run:
 
