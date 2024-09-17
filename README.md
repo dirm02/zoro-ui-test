@@ -24,7 +24,7 @@ def connect_polygon(request):
         else:
             return JsonResponse({'status': 'false', 'network': 'Polygon Mainnet'}, status=500)
 
-    return JsonResponse({'error': 'Invalid request method'}, status=400)`\
+    return JsonResponse({'error': 'Invalid request method'}, status=400)` \
 3-Build simple Django backend that interacts with Polygon network\
 `code here`\
 4-Implement integration new button with Django backend\
