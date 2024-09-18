@@ -9,7 +9,7 @@
 1-Build new page with keeping the layouts on our application
 
 2-Create new button called Connect polygon network\
-`from web3 import Web3
+from web3 import Web3
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 
